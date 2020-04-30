@@ -1,0 +1,23 @@
+{
+  "name": "ng-timezone-picker",
+  "version": "0.0.1",
+  "scripts": {
+    "update-timezones": "tsc ./tools/src/**.ts && node tools/src/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@etclabscore/dl-github-releases": "^1.1.2",
+    "@types/node": "^13.13.4",
+    "d3-geo": "^1.12.0",
+    "d3-geo-projection": "^2.9.0",
+    "mapshaper": "^0.5.2",
+    "moment-timezone": "^0.5.28",
+    "ts-node": "^8.9.1"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28"
+  }
+}

@@ -1,0 +1,81 @@
+@light_blue: #9ddaf8;
+@country_background:#262626;
+@country_stroke:#959595;
+@active: #ffa500;
+@white: #fff;
+@black:#000;
+
+body.example {
+  background-color: @light_blue;
+}
+
+.timezone-map {
+  path {
+    fill: @country_background;
+    &.active {
+      fill: @active;
+      /*stroke: @active;*/
+    }
+    &.offset {
+      fill: @light_blue;
+      /*stroke: @light_blue;*/
+    }
+    &:hover {
+      /*stroke: @active;*/
+      fill: @active;
+      cursor: pointer;
+    }
+  }
+}
+
+.filter-box {
+  &>* {
+    float: left;
+    height: 24px;
+  }
+  select {
+    width: 45%;
+    padding: 0px 0px 0px 10px;
+  }
+  .quick-link {
+    width: 52%;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    span {
+      font-weight: 300;
+      border-radius: 3px;
+      color: @black;
+      background-color: @white;
+      border: solid 1px @black;
+      margin-left: 10px;
+      font-size: 9px;
+      padding: 4px 6px 4px 6px;
+      &.active {
+        color: @white;
+        background-color: @active;
+      }
+      &:hover {
+        color: @white;
+        background-color: @active;
+        cursor: pointer;
+      }
+    }
+  }
+  .hover-text {
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    p {
+      opacity: 0;
+      text-align: center;
+      transform: scale(10);
+      transition: all 0.3s ease-in-out 0.2s;
+      &.active {
+        opacity: 1;
+        transform: scale(1);
+        transition: all 0.3s ease-in-out 0.1s;
+      }
+    }
+  }
+}

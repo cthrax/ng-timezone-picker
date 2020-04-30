@@ -40,7 +40,10 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+combined.json
 
 # System Files
 .DS_Store
 Thumbs.db
+projects/timezone-picker/node_modules
+projects/timezone-picker/tools/src/geojson

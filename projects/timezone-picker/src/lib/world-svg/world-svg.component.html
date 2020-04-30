@@ -1,0 +1,15 @@
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg" class="timezone-map" [attr.viewBox]="viewBox">
+  <!--<polygon
+    *ngFor="let timezoneArea of timezones"
+    [attr.points]="timezoneArea.points"
+    (click)="areaSelected(timezoneArea)"
+    (mouseenter)="mouseEnter(timezoneArea)"
+    [ngClass]="{active: timezoneArea.selected, offset: timezoneArea.sameOffset}"
+    [attr.data-foo]="timezoneArea.zonename"
+  ></polygon>-->
+  <svg:path *ngFor="let timezoneArea of timezones"
+         [attr.d]="timezoneArea.points"
+         (click)="areaSelected(timezoneArea)"
+         (mouseenter)="mouseEnter(timezoneArea)"
+         [ngClass]="{active: timezoneArea.selected, offset: timezoneArea.sameOffset}"/>
+</svg:svg>
