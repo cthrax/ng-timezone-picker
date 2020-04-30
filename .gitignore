@@ -41,6 +41,8 @@ yarn-error.log
 testem.log
 /typings
 combined.json
+cli-simple.json
+simplifed.json
 
 # System Files
 .DS_Store
