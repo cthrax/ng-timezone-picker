@@ -1,5 +1,5 @@
 import { EventEmitter, OnInit } from '@angular/core';
-import { Timezone, TimezoneMapPickerService } from 'timezone-map-picker';
+import { Timezone, TimezoneMapPickerService } from '@cthrax/timezone-map-picker';
 export declare class TimezoneNgSelectPickerComponent implements OnInit {
     timezoneService: TimezoneMapPickerService;
     timezones: Array<Timezone>;

@@ -1,6 +1,6 @@
 {
-  "name": "@cthrax/timezone-picker",
-  "version": "0.0.1",
+  "name": "@cthrax/timezone-ng-select-picker",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^8.2.0",
     "@angular/core": "^8.2.0",
@@ -9,15 +9,15 @@
     "@ng-select/ng-select": "^3.7.3",
     "@cthrax/timezone-map-picker": "^0.0.1"
   },
-  "main": "bundles/cthrax-timezone-picker.umd.js",
-  "module": "fesm5/cthrax-timezone-picker.js",
-  "es2015": "fesm2015/cthrax-timezone-picker.js",
-  "esm5": "esm5/cthrax-timezone-picker.js",
-  "esm2015": "esm2015/cthrax-timezone-picker.js",
-  "fesm5": "fesm5/cthrax-timezone-picker.js",
-  "fesm2015": "fesm2015/cthrax-timezone-picker.js",
-  "typings": "cthrax-timezone-picker.d.ts",
-  "metadata": "cthrax-timezone-picker.metadata.json",
+  "main": "bundles/cthrax-timezone-ng-select-picker.umd.js",
+  "module": "fesm5/cthrax-timezone-ng-select-picker.js",
+  "es2015": "fesm2015/cthrax-timezone-ng-select-picker.js",
+  "esm5": "esm5/cthrax-timezone-ng-select-picker.js",
+  "esm2015": "esm2015/cthrax-timezone-ng-select-picker.js",
+  "fesm5": "fesm5/cthrax-timezone-ng-select-picker.js",
+  "fesm2015": "fesm2015/cthrax-timezone-ng-select-picker.js",
+  "typings": "cthrax-timezone-ng-select-picker.d.ts",
+  "metadata": "cthrax-timezone-ng-select-picker.metadata.json",
   "sideEffects": false,
   "dependencies": {
     "tslib": "^1.9.0"

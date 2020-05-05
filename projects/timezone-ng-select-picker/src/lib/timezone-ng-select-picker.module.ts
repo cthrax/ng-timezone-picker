@@ -3,7 +3,7 @@ import {TimezoneNgSelectPickerComponent} from './timezone-ng-select-picker.compo
 import {NgSelectModule} from '@ng-select/ng-select';
 import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
-import {TimezoneMapPickerModule} from 'timezone-map-picker';
+import {TimezoneMapPickerModule} from '@cthrax/timezone-map-picker';
 
 
 @NgModule({
