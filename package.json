@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "gh-pages": "ng build --baseHref=/ng-timezone-picker/ timezone-picker-runner && git subtree push --prefix dist/timezone-picker-runner origin gh-pages"
+    "gh-pages": "./publish-gh-pages.sh"
   },
   "private": true,
   "dependencies": {
