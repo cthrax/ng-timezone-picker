@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to timezone-picker-runner!');
+    expect(page.getTitleText()).toEqual('Welcome to timezone-map-picker-runner!');
   });
 
   afterEach(async () => {

@@ -23,13 +23,13 @@ describe('AppComponent', () => {
   it(`should have as title 'timezone-picker-runner'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('timezone-picker-runner');
+    expect(app.title).toEqual('timezone-map-picker-runner');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to timezone-picker-runner!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to timezone-map-picker-runner!');
   });
 });

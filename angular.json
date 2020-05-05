@@ -3,10 +3,10 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "timezone-picker": {
+    "timezone-ng-select-picker": {
       "projectType": "library",
-      "root": "projects/timezone-picker",
-      "sourceRoot": "projects/timezone-picker/src",
+      "root": "projects/timezone-ng-select-picker",
+      "sourceRoot": "projects/timezone-ng-select-picker/src",
       "prefix": "cth",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,24 +17,24 @@
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/timezone-picker/tsconfig.lib.json",
-            "project": "projects/timezone-picker/ng-package.json"
+            "tsConfig": "projects/timezone-ng-select-picker/tsconfig.lib.json",
+            "project": "projects/timezone-ng-select-picker/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/timezone-picker/src/test.ts",
-            "tsConfig": "projects/timezone-picker/tsconfig.spec.json",
-            "karmaConfig": "projects/timezone-picker/karma.conf.js"
+            "main": "projects/timezone-ng-select-picker/src/test.ts",
+            "tsConfig": "projects/timezone-ng-select-picker/tsconfig.spec.json",
+            "karmaConfig": "projects/timezone-ng-select-picker/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/timezone-picker/tsconfig.lib.json",
-              "projects/timezone-picker/tsconfig.spec.json"
+              "projects/timezone-ng-select-picker/tsconfig.lib.json",
+              "projects/timezone-ng-select-picker/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -52,7 +52,7 @@
       },
       "root": "projects/timezone-picker-runner",
       "sourceRoot": "projects/timezone-picker-runner/src",
-      "prefix": "app",
+      "prefix": "cth",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -161,6 +161,41 @@
             "production": {
               "devServerTarget": "timezone-picker-runner:serve:production"
             }
+          }
+        }
+      }
+    },
+    "timezone-map-picker": {
+      "projectType": "library",
+      "root": "projects/timezone-map-picker",
+      "sourceRoot": "projects/timezone-map-picker/src",
+      "prefix": "cth",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/timezone-map-picker/tsconfig.lib.json",
+            "project": "projects/timezone-map-picker/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/timezone-map-picker/src/test.ts",
+            "tsConfig": "projects/timezone-map-picker/tsconfig.spec.json",
+            "karmaConfig": "projects/timezone-map-picker/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/timezone-map-picker/tsconfig.lib.json",
+              "projects/timezone-map-picker/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }

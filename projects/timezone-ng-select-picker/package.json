@@ -1,0 +1,12 @@
+{
+  "name": "@cthrax/timezone-picker",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0",
+    "@angular/forms": "^8.2.0",
+    "@angular/platform-browser": "^8.2.0",
+    "@ng-select/ng-select": "^3.7.3",
+    "@cthrax/timezone-map-picker": "^0.0.1"
+  }
+}

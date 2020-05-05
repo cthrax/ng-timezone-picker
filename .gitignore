@@ -46,5 +46,5 @@ simplifed.json
 # System Files
 .DS_Store
 Thumbs.db
-projects/timezone-picker/node_modules
-projects/timezone-picker/tools/src/geojson
+projects/timezone-map-picker/node_modules
+projects/timezone-map-picker/tools/src/geojson

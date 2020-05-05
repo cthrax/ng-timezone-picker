@@ -21,11 +21,17 @@
       "dom"
     ],
     "paths": {
-      "ng-timezone-picker": [
-        "dist/ng-timezone-picker"
+      "timezone-ng-select-picker": [
+        "dist/timezone-ng-select-picker"
       ],
-      "ng-timezone-picker/*": [
-        "dist/ng-timezone-picker/*"
+      "timezone-ng-select-picker/*": [
+        "dist/timezone-ng-select-picker/*"
+      ],
+      "timezone-map-picker": [
+        "dist/timezone-map-picker"
+      ],
+      "timezone-map-picker/*": [
+        "dist/timezone-map-picker/*"
       ]
     }
   },
