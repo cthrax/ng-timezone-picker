@@ -2,7 +2,7 @@
 
 rm -rf dist
 # 1. Set up a worktree in directory dist checked out on branch gh-pages
-git worktree add -b gh-pages dist/timezone-picker-runner gh-pages
+git worktree add dist/timezone-picker-runner gh-pages
 # 2. Build whatever needs to be in dist however you like
 ng build --baseHref=/ng-timezone-picker/ timezone-picker-runner
 # 3. Add everything in dist
