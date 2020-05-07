@@ -13,6 +13,7 @@ export class TimezoneMapPickerComponent implements OnInit {
   @Input() public defaultTimezone: string = null;
   @Input() public width = 100;
   @Input() public height = 50;
+  @Input() public mapClass?: string;
 
   @Output() public timezoneSelected: EventEmitter<Timezone> = new EventEmitter<Timezone>();
   @Output() public hoverChanged: EventEmitter<Timezone> = new EventEmitter<Timezone>();

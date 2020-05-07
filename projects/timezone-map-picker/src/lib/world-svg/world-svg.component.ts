@@ -13,6 +13,7 @@ export class WorldSvgComponent implements OnInit {
   @Input() public width: number;
   @Input() public height: number;
   @Input() public defaultTimezone: string;
+  @Input() public mapClass?: string;
 
   @Output() public timezoneSelected: EventEmitter<Timezone> = new EventEmitter<Timezone>();
   @Output() public hoverChanged: EventEmitter<Timezone> = new EventEmitter<Timezone>();

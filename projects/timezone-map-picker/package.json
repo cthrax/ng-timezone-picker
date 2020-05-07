@@ -1,6 +1,6 @@
 {
   "name": "@cthrax/timezone-map-picker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "update-timezones": "tsc ./tools/src/**.ts && node tools/src/index.js"
   },

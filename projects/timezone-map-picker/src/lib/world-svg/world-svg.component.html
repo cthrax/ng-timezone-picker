@@ -1,4 +1,4 @@
-<svg:svg xmlns:svg="http://www.w3.org/2000/svg" class="timezone-map" [attr.viewBox]="viewBox">
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg" class="timezone-map" [ngClass]="mapClass" [attr.viewBox]="viewBox">
   <svg:path *ngFor="let timezoneArea of timezones"
          [attr.d]="timezoneArea.points"
          (click)="areaSelected(timezoneArea)"

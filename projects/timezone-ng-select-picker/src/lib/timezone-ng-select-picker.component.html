@@ -9,8 +9,8 @@
     (ngModelChange)="timezoneSelectionChange($event)"
     [(ngModel)]="timezoneService.selected">
     ></ng-select>
-  <cth-timezone-map-picker [ngClass]="mapClass" [defaultTimezone]="defaultTimeZone"></cth-timezone-map-picker>
-  <div *ngIf="showHover" [ngClass]="hoverClass">
+  <cth-timezone-map-picker [mapClass]="mapClass" [defaultTimezone]="defaultTimeZone"></cth-timezone-map-picker>
+  <div *ngIf="showHover && timezoneService?.hovered" [ngClass]="hoverClass">
     <span>{{timezoneService?.hovered?.timezone}}&nbsp;({{timezoneService?.hovered?.zonename}})</span>
   </div>
 </div>
