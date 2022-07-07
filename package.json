@@ -24,7 +24,7 @@
     "@cthrax/timezone-ng-select-picker": "0.0.2",
     "@ng-select/ng-select": "^3.7.3",
     "geojsonio-cli": "^0.2.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.28",
     "rxjs": "~6.4.0",
     "simplify-geojson": "^1.0.3",
