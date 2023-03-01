@@ -10,7 +10,7 @@
     "@types/node": "^13.13.4",
     "d3-geo": "^1.12.0",
     "d3-geo-projection": "^2.9.0",
-    "mapshaper": "^0.5.2",
+    "mapshaper": "^0.5.118",
     "moment-timezone": "^0.5.35",
     "ts-node": "^8.9.1"
   },
